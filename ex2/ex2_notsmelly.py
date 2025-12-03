@@ -4,8 +4,7 @@ class Shape:
     """Base class for all shapes."""
 
     def calculate_area(self):
-        """Subclasses must implement this."""
-        raise NotImplementedError("Subclasses must implement calculate_area().")
+        pass
 
 
 class Circle(Shape):
